@@ -1,0 +1,18 @@
+
+[[sec_10]]
+== Security design principles relationships
+
+This section studies the relationships between security design principles with the objective to:
+
+* identify overlaps,
+* identify those who are part of a MECE
+* build Euler-Venn diagrams. 
+
+[[sec_10.1]]
+=== Not a security design principle
+
+There are a number of concepts in the industry that depending on the context are not security design principles. Examples:
+
+* SASE
+* SSE
+* MESH

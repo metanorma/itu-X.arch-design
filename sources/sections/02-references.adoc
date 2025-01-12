@@ -1,0 +1,9 @@
+
+[heading="normative references"]
+== References
+
+// Normative references
+
+// Paired Recommendations | International Standards equivalent in technical content
+
+// Other references

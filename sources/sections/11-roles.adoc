@@ -1,0 +1,86 @@
+
+[[sec_11]]
+== Consideration on Designer and Architect Roles
+
+EDITOR: This section is important but will require a lot of rewording
+
+Designers and architects form a key constituency of this Recommendation. 
+
+* They play an important if not existential role in the success of a solution. 
+* They can too be the limit to this success. 
+
+[[sec_11.1]]
+=== Context for the role
+
+[[sec_11.1.1]]
+==== Designer and architect jobs across domains
+
+In military engineering and way later in civil engineering (as this is a domain where humans have a long experience) designers and architects have rather well codified job descriptions with full curricula that are not only licensed but deliver diploma which not only gives the right to the architect to do his job, but comes too with responsibilities and liabilities. 
+
+If a bridge falls down, both from a legal and an insurance perspective, the process will inevitably lead to the question of whether or not the architect is responsible (liable) or not. His/her responsibility may be engaged. 
+
+[[sec_11.1.2]]
+==== Designer and architect jobs in ICT
+
+The ICT industry incrementally recognized the problem and attributed its solution to architects and designers which were allocated in various types and companies functions in IT and ICT we observe many differences, at this stage:
+
+* IT and ICT are domains that are much younger by orders of magnitude than civil engineering
+* The role/job of an architect is extremely recent and was mostly hidden in the wordings 'software engineer', etc. 
+* The role/job and covers many subtypes:
+** Software architect
+** System architect
+** Solution architect
+** Etc.
+* For a long time there were no codification and even trainings or certification for this job until TOGAF arrived in 1995 and yet, even today, like anything, it has limits
+* There are no liabilities attached to any architect. An architect making a mistake at design level has absolutely no risk even if (lived stories) it could incur enormous costs and liabilities for the 'customer' and for the 'provider' of the architecture.
+
+[[sec_11.1.3]]
+==== Different types of ICT Designer and Architects
+
+Firstly, at product and service level, there are various types of architects (the list is not meant to be exhaustive)
+
+.Architect and Designer types
+[cols="3",options="header"]
+|===
+| Architect type | Coverage |Organization
+
+| Software Architect | Covers the architecture of a software that needs to be developed | Engineering / R&D
+| Product Architect | Covers the end to end architecture of product that needs to be developed | Engineering / R&D 
+| Designer | Covers the full design of a product or groups of products including other design criteria such as Societal, Technical, Ecological, Environmental, Political, Human Factor, etc. | Engineering / R&D
+| Security Architect | Covers the security aspect of a solution and proposes either a security architecture or a security by design 'design' | SoC / CISO / etc.
+| System Architect | Covers the design of an entire set of systems (hardware, software, etc.) that needs to be put in production for a given period of time (usually years or more) | Field
+| Solution Architect | Covers the end to end solution (hardware, software, professional services, partners, compliancy, etc.) for a given customer | Field
+| Technical Directors | Office of the CTO and CTOs do have a view on design in terms of internal standardisation, design directions, harmonisation, composability and do participate in the organization transformation, breaking the silos or contributing to the collaboration and coordination between the silos based on design approaches | Office of CTO
+
+|===
+
+[[sec_11.1.4]]
+==== The nature of the job
+
+The architects and designers have a pivot job in each organization because they have to produce deliverables that will take into 
+
+EDITOR: the first and second bullets should be checked vs above terminology, e.g. shouldn't we use the term 'concern' in the first bullet
+
+* In one hand, the considerations of definitions, standards, requirements, limits and constraints 
+* On the other hand, the whole lifecycle of a product or a service
+
+The diagram below shows this pivot role on the top and on the bottom shows a number of dimensions that make the characteristics of the architect in his core and deepest nature. 
+
+EDITOR: Harmonise the cycle with the cycle proposed in section 9.4
+
+.The architect and designers play a pivot role
+image::figure3.png[]
+
+As well it is important that each architect / designer, will come with his own approach which will likely be unique in itself. The architect / designer, could consider his/her deliverables vs the four below dimensions:
+
+* Anthropology
+* Ethics
+* Law
+* Technology
+
+In special conditions though, especially when no human being had any previous experience, one needs to consider the reverse order:
+
+* Technology
+* Law
+* Ethics
+* Anthropology
