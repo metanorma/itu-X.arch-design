@@ -2,8 +2,8 @@
 [heading="normative references"]
 == References
 
-// Normative references
+// *Normative references*
 
-// Paired Recommendations | International Standards equivalent in technical content
+// *Paired Recommendations | International Standards equivalent in technical content*
 
-// Other references
+// *Other references*
