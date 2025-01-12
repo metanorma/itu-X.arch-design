@@ -1,0 +1,18 @@
+
+[bibliography]
+== Bibliography
+
+* [[[b-NOD,b-NOD]]] David Pye. The nature of design. 1964. SBN 289 36845 6.
+
+* [[[b-RFC9413,b-RFC9413]]] Martin Thompson and David Schniazi, RFC9413, Maintaining Robust Protocols, June 2023.
+
+* [[[b-SecArch-Design,b-SecArch-Design]]] 	Geir M. Køien, A Philosophy of Security Architecture Design, Wireless Personal Communications (2020) 113:1615–1639, https://doi.org/10.1007/s11277-020-07310-5 
+
+* [[[b-DEPENDABILITY,b-DEPENDABILITY]]] A. Avizienis, J. . -C. Laprie, B. Randell and C. Landwehr, "Basic concepts and taxonomy of dependable and secure computing," in IEEE Transactions on Dependable and Secure Computing, vol. 1, no. 1, pp. 11-33, Jan.-March 2004, doi: 10.1109/TDSC.2004.2.
+
+* [[[b-BCE_Usenix,b-BCE Usenix]]] Ward R., Beyer B. (2014), BeyondCorp A New Approach to Enterprise Security, Usenix, ;login: Vol. 39, No. 6, December 2014.
+https://www.usenix.org/system/files/login/articles/login_dec14_02_ward.pdf
+
+* [[[b-BCE_Updated,b-BCE Updated]]] Transforming Remote Access with Google BeyondCorp Enterprise. https://whitepaperseries.com/wp-content/uploads/2023/08/128036_Security-Asset_-WhitepaperTransformingRemoteAccesswithGoogleBeyondCorpEnterprise.pdf
+
+* [[[ISO_IEC_42010_2022,ISO/IEC/IEEE 42010:2022]]]

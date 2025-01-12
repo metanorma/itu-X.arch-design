@@ -1,0 +1,85 @@
+
+[[sec_8]]
+== Security meta reference architecture framework
+
+EDITOR: the title of this section will need to be adjusted, this is only one small fraction of a meta reference architecture framework for security
+
+This section defines a high-level framework that enumerates the concepts that can be utilised by a designer and/or architect in need to produce a security reference architecture, or a derived security solution architecture, or the derived actual security solution implementation and lifecycle. 
+
+[[sec_8.1]]
+=== Representation method
+
+Each concept proposed in this Recommendation will be represented in the following uniform schema:
+
+* ID: MUST
+* Name: MUST
+* Abbreviation: MAY
+* Type: MUST
+* Definition(s): MUST (at least one)
+* Description: SHOULD
+* Source(s): SHOULD
+* Evolution: MAY
+* Position in any security model: MAY
+* Include: MAY
+* Is included by: MAY
+* Is obsoleted by: MAY
+* Notes: MAY
+
+Template table:
+
+[cols="100,400",options="unnumbered"]
+|===
+| ID |
+| Name |
+| Abbreviation |
+| Type |
+| Definition(s) |
+| Description(s) |
+| Source(s) |
+| Evolution |
+| Position in any security model |
+| Include |
+| Is included by |
+| Is obsoleted by |
+| Notes |
+|===
+
+[[sec_8.2]]
+=== Security concerns
+
+Whilst the identification of security concerns are an essential part of any design and architecture work, they are outside of the scope of this Recommendation.
+
+[yaml2text,tables/security_meta_tables.yaml,data]
+----
+{% assign sections = data.sections %}
+
+{% for sect in sections %}
+=== {{ sect.title }}
+
+{% for subsec in sect.subsections %}
+==== {{ subsec.title }}
+
+{% for table in subsec.tables %}
+[cols="100,400",options="unnumbered"]
+|===
+| ID                             a| {{ table.id }}
+| Name                           a| {{ table.name }}
+| Abbreviation                   a| {{ table.abbrv }}
+| Type                           a| {{ table.type }}
+| Definition(s)                  a| {{ table.definitions }}
+| Description(s)                 a| {{ table.descriptions }}
+| Source(s)                      a| {{ table.sources }}
+| Evolution                      a| {{ table.evolution }}
+| Position in any security model a| {{ table.position }}
+| Include                        a| {{ table.include }}
+| Is included by                 a| {{ table.included_by }}
+| Is obsoleted by                a| {{ table.obsoleted_by }}
+| Notes                          a| {{ table.notes }}
+|===
+
+{% endfor %}
+
+{% endfor %}
+
+{% endfor %}
+----

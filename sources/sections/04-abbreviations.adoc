@@ -1,0 +1,11 @@
+
+== Abbreviations and acronyms
+
+DEF:: DEFinition
+MECE:: Mutually Exclusive Collectively Exhaustive
+PoLP:: Principle of List Privilege
+SAP:: Security Architecture Principle
+SDB:: Security Design Best Practice
+SDC:: Security Design Consideration
+SDP:: Security Design Principle
+SDX:: Security Design Constraint

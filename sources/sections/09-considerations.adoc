@@ -1,0 +1,6 @@
+
+[[sec_9]]
+== Evolutionary considerations
+
+[%unnumbered]
+image::figure2.emf[]

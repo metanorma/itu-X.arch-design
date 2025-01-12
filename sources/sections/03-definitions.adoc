@@ -1,0 +1,133 @@
+
+[heading="terms and definitions"]
+== Definitions
+
+EDITOR: To Be Verified towards the end of the development of this Work Item if we need all of these definitions as we focused the scope on basic concepts and principles
+
+[[sec_3.1]]
+=== Terms defined elsewhere
+
+[[sec_3.1.1]]
+==== concern (<<ISO_IEC_42010_2022,clause=3.7>>)
+domain:[system]
+
+interest in a system relevant to one or more of its stakeholders 
+
+NOTE: A concern pertains to any influence on a system in its environment, including developmental, technological, business, operational, organizational, political, economic, legal, regulatory, ecological and social influences
+
+[[sec_3.1.2]]
+==== entity of interest (<<ISO_IEC_42010_2022,clause=5.2.1>>)
+
+The term "entity of interest" is used in this document to refer to the subject of an architecture description. The term is intended to encompass, but is not limited to, entities within the following fields of application, reflecting the intended scope of this document as specified in <<sec_1>>. 
+
+* software, including software products and services, per ISO/IEC/IEEE 12207;
+
+* systems, including one-of-a-kind systems, mass-produced systems, customized, adaptive systems, stand-alone and embedded systems, per ISO/IEC/IEEE 15288;
+
+* enterprises as described in ISO 15704, i.e. human undertakings or ventures that have mission, goals and objectives to offer products or services, or to achieve a desired project outcome or business outcome.
+
+[[sec_3.2]]
+=== Terms defined in this Recommendation
+
+[[sec_3.2.1]]
+==== architecture
+EDITOR: should be defined elsewhere
+
+NOTE: an architecture identifies a particular problem space and defines a technology-independent analysis of requirements.
+
+[[sec_3.2.2]]
+==== characteristic
+EDITOR: should be defined elsewhere
+
+a property of a system of interest.
+
+[[sec_3.2.3]]
+==== design
+EDITOR: should be defined elsewhere
+
+NOTE: a design maps architectural requirements into a particular family of solutions based upon standards and technical approaches.
+
+[[sec_3.2.4]]
+==== framework
+EDITOR: should be defined elsewhere
+
+NOTE: a framework sits at a broad, conceptual level and provides context for more detailed technical aspects.
+
+[[sec_3.2.5]]
+==== implementation
+EDITOR: should be defined elsewhere
+
+realisation of an entity of interest.
+
+[[sec_3.2.6]]
+==== reference architecture
+
+template for solution architecures which realizes a prefefined set of requirements.
+
+NOTE: A reference architecture uses its subject field reference model (as the next higher level of abstraction) and provides a common (architectural) vision, a modularization and the logic behind the architectural decisions taken.
+
+[[sec_3.2.7]]
+==== reference model
+
+abstract framework for understanding concepts and relationships between them in a particular problem space (or subject field).
+
+[[sec_3.2.8]]
+==== security architectural principle
+
+a guiding believe or rule that informs the design and development of the security aspects within an architecture. 
+
+[[sec_3.2.9]]
+==== security concern
+
+interest to the security aspects of an entity of interest relevant to one or more of its stakeholders. 
+
+NOTE: The same NOTE as for the term concern in section 3.1 applies: A concern pertains to any influence on a system in its environment, including developmental, technological, business, operational, organizational, political, economic, legal, regulatory, ecological and social influences. 
+
+NOTE: These concerns encompass the identification and understanding of potential security risks, vulnerabilities, threats and protective measures that need to be addressed within the architecture.
+
+[[sec_3.2.10]]
+==== security design
+
+the process of conceptualizing, selecting, tailoring and organizing the composition of the appropriate security capabilities and security design principles to protect a specific entity of interest throughout its lifecycle. 
+
+NOTE: this involves assessing risks, identifying security concerns, security requirements and applying relevant security design principles - such as Zero Trust, Defense in Depth, and the Principle of Least Privilege - to develop the corresponding architecture (reference, solution, implementation)
+
+[[sec_3.2.11]]
+==== security design best practice
+
+The established and proven techniques, methodologies, and guidelines that represent the most effective and reliable approaches for enhancing the security of a specific entity of interest. 
+
+[[sec_3.2.12]]
+==== security design consideration
+
+the factors that influence the security design for a specific entity of interest. 
+
+[[sec_3.2.13]]
+==== security design constraint
+
+a limitation or requirement that shapes the selection, organization and implementation of security capabilities and security design principles within the security design process.
+
+NOTE: these constraints can stem from regulatory requirements, technical limitations, business objectives, or environmental factors, and they directly influence the development of security architectures and solutions to ensure protection of a specific entity of interest throughout its lifecycle.
+
+[[sec_3.2.14]]
+==== security design principle
+
+a guiding believe or rule that directs the security design of an entity of interest.
+
+[[sec_3.2.15]]
+==== security meta reference architecture framework
+
+a higher-level framework that provides a structured approach for creating reference architectures within the security domain knowledge. It defines the common components, models, principles, and best practices that can be applied across various reference architectures. 
+
+[[sec_3.2.16]]
+==== solution
+EDITOR: should be defined elsewhere
+
+NOTE: a solution manifests a design into a particular vendor technology, ensuring adherence to designs, models, and frameworks.
+
+[[sec_3.2.17]]
+==== solution architecture
+
+architecture of an entity of interest.
+
+NOTE: a solution architecture (also known as a blueprint) can be a tailored version of a particular reference architecture (which is the next higher level of abstraction).
