@@ -1,0 +1,41 @@
+directives:
+- documents-inline
+- collection-word-coverpage: null
+- collection-word-intropage: null
+- document-word-coverpage: ""
+- document-word-intropage: itu_embedded_intro.html
+
+bibdata:
+  title:
+    - language: en
+      content: ITU SG 17 X.arch-design contribution
+  type: collection
+  docid:
+    type: ITU
+    id: SG17-C3000
+  copyright:
+    owner:
+      name: International Telecommunications Union
+      abbreviation: ITU
+    from: 2025
+
+format:
+- presentation
+- html
+- pdf
+- doc
+- rxl
+
+output_folder: output
+
+manifest:
+  level: document
+  title: Document
+
+  docref:
+
+  - file: contribution/document.adoc
+    identifier: SG17-C3000
+
+  - file: recommendation/document.adoc
+    identifier: ITU-X.arch-design

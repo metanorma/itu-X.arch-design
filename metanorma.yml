@@ -1,0 +1,17 @@
+---
+metanorma:
+  source:
+    files:
+
+      # Recommendation
+      - sources/recommendation/document.adoc
+
+      # Contribution
+      - sources/contribution/document.adoc
+
+      # Contribution bundle
+      - sources/collection.yml
+
+  collection:
+    organization: "International Telecommunications Union"
+    name: "ITU-T SG 17 X.arch-design"

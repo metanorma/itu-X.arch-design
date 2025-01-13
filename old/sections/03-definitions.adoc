@@ -1,0 +1,6 @@
+
+[heading="terms and definitions"]
+== Definitions
+
+EDITOR: To Be Verified towards the end of the development of this Work Item if we need all of these definitions as we focused the scope on basic concepts and principles
+

@@ -2,5 +2,4 @@
 [[sec_9]]
 == Evolutionary considerations
 
-[%unnumbered]
-image::figure2.emf[]
+image::figure2.pdf[]

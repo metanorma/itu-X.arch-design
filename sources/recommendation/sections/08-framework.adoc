@@ -1,0 +1,88 @@
+
+== Security meta reference architecture framework
+
+EDITOR: the title of this section will need to be adjusted, this is only one
+small fraction of a meta reference architecture framework for security
+
+This section defines a high-level framework that enumerates the concepts that
+can be utilised by a designer and/or architect in need to produce a security
+reference architecture, or a derived security solution architecture, or the
+derived actual security solution implementation and lifecycle.
+
+=== Representation method
+
+Each concept proposed in this Recommendation will be represented in the
+following uniform schema:
+
+* ID: MUST
+* Name: MUST
+* Abbreviation: MAY
+* Type: MUST
+* Definition(s): MUST (at least one)
+* Description: SHOULD
+* Source(s): SHOULD
+* Evolution: MAY
+* Position in any security model: MAY
+* Include: MAY
+* Is included by: MAY
+* Is obsoleted by: MAY
+* Notes: MAY
+
+Template table:
+
+[cols="100,400",options="unnumbered"]
+|===
+| ID |
+| Name |
+| Abbreviation |
+| Type |
+| Definition(s) |
+| Description(s) |
+| Source(s) |
+| Evolution |
+| Position in any security model |
+| Include |
+| Is included by |
+| Is obsoleted by |
+| Notes |
+|===
+
+=== Security concerns
+
+Whilst the identification of security concerns are an essential part of any
+design and architecture work, they are outside of the scope of this
+Recommendation.
+
+[yaml2text,data/security_concerns.yml,data]
+----
+{% assign domains = data.domains %}
+
+{% for domain in domains %}
+=== {{ domain.title }} ({{ domain.abbreviation }})
+
+{% for control in domain.controls %}
+
+==== {{ control.name }} ({{ control.id }})
+
+.{{ control.name }} ({{ control.id }})
+[cols="100,400",options="unnumbered"]
+|===
+| ID                             a| {{ control.id }}
+| Name                           a| {{ control.name }}
+| Abbreviation                   a| {{ control.abbrv }}
+| Type                           a| {{ control.type }}
+| Definition(s)                  a| {{ control.definitions }}
+| Description(s)                 a| {{ control.descriptions }}
+| Source(s)                      a| {{ control.sources }}
+| Evolution                      a| {{ control.evolution }}
+| Position in any security model a| {{ control.position }}
+| Include                        a| {{ control.include }}
+| Is included by                 a| {{ control.included_by }}
+| Is obsoleted by                a| {{ control.obsoleted_by }}
+| Notes                          a| {{ control.notes }}
+|===
+
+{% endfor %}
+
+{% endfor %}
+----

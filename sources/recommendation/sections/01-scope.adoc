@@ -1,0 +1,8 @@
+
+[[scope]]
+== Scope
+//<Mandatory>
+
+The scope of this recommendation is the definition of a lightweight, pragmatic
+and proven set of design principles, concepts, and criteria; and how to select
+and apply them to any security design or architectural work.

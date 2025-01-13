@@ -1,0 +1,50 @@
+= Design Principles and Best Practices for Security Architectures
+:bureau: T
+:provisional-name: X.arch-design
+//:docnumber: W.3000 (fictitious)
+:series: X: Data networks, open system communications and security
+:series1: Recommendations
+:published-date: 2025-01-13
+:status: draft
+:doctype: recommendation
+:keywords: Security, Design, Design Principle, Architect, Designer
+:imagesdir: images
+:mn-document-class: itu
+:local-cache-only:
+:data-uri-image:
+
+// NOTE TO AUTHORS: Replace the text between angle brackets (< and >), including the brackets, with the appropriate text. Also delete this Note.
+// Converted from ITUT-Recs-Skelet.doc
+
+// NOTE: This is a template for a Recommendation, but a Revision Contribution can target any type of ITU document.
+// To populate this template, refer to the templates for standalone document
+
+include::sections/00-summary.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-norm-refs.adoc[]
+
+include::sections/03-terms.adoc[]
+
+include::sections/04-abbrev.adoc[]
+
+include::sections/05-conventions.adoc[]
+
+include::sections/06-content.adoc[]
+
+include::sections/07-concepts.adoc[]
+
+include::sections/08-framework.adoc[]
+
+include::sections/09-considerations.adoc[]
+
+include::sections/10-relationships.adoc[]
+
+include::sections/11-roles.adoc[]
+
+include::sections/12-examples.adoc[]
+
+include::sections/a1-annex.adoc[]
+
+include::sections/zz-references.adoc[]

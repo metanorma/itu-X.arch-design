@@ -1,0 +1,52 @@
+
+== Examples
+
+EDITOR: this section will need a lot of curation but will be done after section
+7, 8 and 9 are complete
+
+=== Key Concepts for Cyber Security
+
+==== Concept #1
+
+Resilience should be the overall strategy for ensuring business continuity: When
+focusing on resilience in general, organizations must consider safety, security,
+and reliability of the processes and the delivery of their services. Resilience
+includes security measures that can mitigate impacts, not only before incidents
+(identify & prevent), but also during such incidents (detect & respond) and
+after incidents have been resolved (recover).
+
+EDITOR: is this a security design principle? Or is it a context where security
+design principles should apply? Or is it a context that imposes new security
+design principles, or constraints or composition issues? This infers a new
+section on composition/usage, even perhaps AFTER Kishor's section
+
+==== Concept #3
+
+IT and OT are similar but different: Technologies in Operational environments
+(called OT) have many differing security constraints and requirements from
+Informational Technologies (IT) environments.
+
+[EDITOR]
+====
+* Same as concept #1 this is not a design principle but areas of applicability
+
+* We should look at transformation of NT, AI, IOT, OT, IT
+====
+
+==== Concept #4
+
+Risk assessment, risk mitigation, and continuous update of processes are
+fundamental to improving security: Based on an organization's business
+requirements, its security risk exposure must be determined (human safety,
+physical, functional, environmental, financial, societal, reputational) for all
+its business processes.
+
+[Same as concept #1 this is more of a context]
+
+==== Concept #5
+
+Cyber security standards and best practice guidelines for OT environments should
+be used to support the risk management process and establish security programs
+and policies: at the right time.
+
+[Same as concept #1 this is applicability]

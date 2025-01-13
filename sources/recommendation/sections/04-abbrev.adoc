@@ -1,5 +1,10 @@
 
 == Abbreviations and acronyms
+////
+<Include all abbreviations and acronyms used in this Recommendation>
+////
+
+// This Recommendation uses the following abbreviations and acronyms:
 
 DEF:: DEFinition
 MECE:: Mutually Exclusive Collectively Exhaustive

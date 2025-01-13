@@ -3,19 +3,6 @@
 :docnumber: SG17-Cn
 :draft:
 :language: en
-:title: Design Principles and Best Practices for Security Architectures
-:source: Broadcom Europe Ltd.
-:group: 17
-:group-type: study-group
-:contact: Arnaud Taddei
-:phone: +41795061129
-:email: arnaud.Taddei@broadcom.com
-:address: United Kingdom
-:keywords: Security, Design, Design Principle, Architect, Designer
-:imagesdir: images
-:mn-document-class: jis
-:mn-output-extensions: xml,html,doc,pdf,rxl
-:local-cache-only:
 
 include::sections/00-preface.adoc[]
 
