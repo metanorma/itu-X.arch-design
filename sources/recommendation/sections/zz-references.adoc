@@ -2,8 +2,8 @@
 [bibliography]
 == Bibliography
 
-* [[[b-NOD,(b-NOD)ISBN 289-36845-6]]],
-David Pye. The nature of design. 1964. ISBN 289-36845-6.
+* [[[b-NOD,(b-NOD)ISBN 0-289-36845-6]]],
+David Pye. The nature of design. 1964. ISBN 0-289-36845-6.
 
 * [[[b-RFC9413,(b-RFC9413)IETF RFC 9413]]],
 Martin Thompson and David Schniazi, RFC9413, Maintaining Robust Protocols, June
