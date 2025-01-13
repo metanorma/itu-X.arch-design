@@ -1,0 +1,91 @@
+
+== Context
+
+=== Introduction
+
+The audience of this Recommendation is a designer and/or an architect in need to
+produce a security reference architecture, or a derived security solution
+architecture, or the derived actual security solution implementation and
+lifecycle.
+
+Whilst security is an imperative for any design, security is only one aspect of
+the overall design and, in this perspective, security is only one characteristic
+among a growing number of conflicting characteristics.
+
+Achieving security within a design requires the support of a number of
+meta-reference architecture elements and this Recommendation will concentrate
+on:
+
+* Design principles and best practices for security architectures (<<sec_7>>),
+
+* An understanding of the role of the designer and/or architect (<<sec_9>>).
+
+=== Architectural methodological reminders
+
+The adoption of architecture practice is a strategic decision for an
+organization that can help improve its overall value to a variety of
+stakeholders. Developing and using architectures in any domain has major
+benefits because a well-developed architecture can:
+
+* foster stakeholder engagement and cooperation with decision-making activities,
+
+* promote uniformity of products and services delivered,
+
+* frame development and usage of solutions (including products, services and
+systems),
+
+* increase the efficiency and effectiveness of transformation or modernization
+initiatives,
+
+* promote coherence between enterprise and technical solutions (e.g. systems,
+software, services),
+
+* improve interoperability between enterprises, systems, services and software
+applications,
+
+* improve compatibility between systems and technologies,
+
+* drive development of technologies for future applications,
+
+* provide a framework for identifying teams and enabling systems,
+
+* meet consumer demand in the evolving landscape of the marketplace,
+
+* help structure a plan and integration points.
+
+The architecting principles are defined in three categories:
+
+. Principles about the meaning of architecture
+
+.. architecture as embodiment of decisions
+
+.. understanding the problem space and solution space
+
+.. identifying fundamental concepts and properties of the architecture
+
+.. architecture as abstractions relevant to nature of architecture entity
+
+. Principles about the intent of architecture
+
+.. architecting with a focus on informing decision making
+
+.. architecting with a focus on value
+
+.. achieving a balanced and robust architecture
+
+.. describing architecture to enhance understanding of its intent
+
+. [[cat_3]]Principles about the nature of architecture
+
+.. architecting with a focus on key architectural properties
+
+.. architecting with a focus on relationships and interfaces
+
+.. [[cat_3_c]]identifying principles guiding solution development
+
+.. [[cat_3_d]]identifying principles guiding the evolution of architecture
+entities
+
+This Recommendation focuses on <<cat_3>> and in particular <<cat_3_c>> and
+<<cat_3_d>> though the reader of this Recommendation should be mindful of the
+wider context of this Recommendation.

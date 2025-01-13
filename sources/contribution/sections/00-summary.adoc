@@ -1,0 +1,7 @@
+
+[abstract]
+== Abstract
+
+// This abstract will automatically be inserted into a table formatted as in the normal contribution template.
+
+This contribution contains a proposed revised baseline text for X.arch-design

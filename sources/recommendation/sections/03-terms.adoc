@@ -1,0 +1,184 @@
+
+== Definitions
+
+EDITOR: To Be Verified towards the end of the development of this Work Item if
+we need all of these definitions as we focused the scope on basic concepts and
+principles
+
+////
+Check in the ITU-T terms and definitions database at
+www.itu.int/go/terminology-database whether the term has already been
+defined in another Recommendation. It would be more consistent to refer
+to such a definition rather than to redefine the term.
+////
+
+=== Terms defined elsewhere
+
+////
+Normally, terms defined elsewhere will simply refer to the defining
+document. In certain cases, it may be desirable to quote the definition
+to allow for a stand-alone document
+////
+
+=== Terms defined elsewhere
+
+==== concern
+domain:[system]
+
+interest in a system relevant to one or more of its stakeholders
+
+NOTE: A concern pertains to any influence on a system in its environment,
+including developmental, technological, business, operational, organizational,
+political, economic, legal, regulatory, ecological and social influences
+
+[.source]
+<<ISO_IEC_42010_2022,clause=3.7>>
+
+==== entity of interest
+
+The term "entity of interest" is used in this document to refer to the subject
+of an architecture description. The term is intended to encompass, but is not
+limited to, entities within the following fields of application, reflecting the
+intended scope of this document as specified in <<scope>>.
+
+* software, including software products and services, per ISO/IEC/IEEE 12207;
+
+* systems, including one-of-a-kind systems, mass-produced systems, customized,
+adaptive systems, stand-alone and embedded systems, per ISO/IEC/IEEE 15288;
+
+* enterprises as described in ISO 15704, i.e. human undertakings or ventures
+that have mission, goals and objectives to offer products or services, or to
+achieve a desired project outcome or business outcome.
+
+[.source]
+<<ISO_IEC_42010_2022,clause=5.2.1>>
+
+=== Terms defined in this Recommendation
+
+==== architecture
+
+EDITOR: should be defined elsewhere
+
+NOTE: an architecture identifies a particular problem space and defines a
+technology-independent analysis of requirements.
+
+==== characteristic
+
+EDITOR: should be defined elsewhere
+
+a property of a system of interest.
+
+==== design
+
+EDITOR: should be defined elsewhere
+
+NOTE: a design maps architectural requirements into a particular family of
+solutions based upon standards and technical approaches.
+
+==== framework
+
+EDITOR: should be defined elsewhere
+
+NOTE: a framework sits at a broad, conceptual level and provides context for
+more detailed technical aspects.
+
+==== implementation
+
+EDITOR: should be defined elsewhere
+
+realisation of an entity of interest.
+
+==== reference architecture
+
+template for solution architecures which realizes a prefefined set of
+requirements.
+
+NOTE: A reference architecture uses its subject field reference model (as the
+next higher level of abstraction) and provides a common (architectural) vision,
+a modularization and the logic behind the architectural decisions taken.
+
+==== reference model
+
+abstract framework for understanding concepts and relationships between them in
+a particular problem space (or subject field).
+
+==== security architectural principle
+
+a guiding believe or rule that informs the design and development of the
+security aspects within an architecture.
+
+==== security concern
+
+interest to the security aspects of an entity of interest relevant to one or
+more of its stakeholders.
+
+NOTE: The same NOTE as for the term concern in section 3.1 applies: A concern
+pertains to any influence on a system in its environment, including
+developmental, technological, business, operational, organizational, political,
+economic, legal, regulatory, ecological and social influences.
+
+NOTE: These concerns encompass the identification and understanding of potential
+security risks, vulnerabilities, threats and protective measures that need to be
+addressed within the architecture.
+
+==== security design
+
+the process of conceptualizing, selecting, tailoring and organizing the
+composition of the appropriate security capabilities and security design
+principles to protect a specific entity of interest throughout its lifecycle.
+
+NOTE: this involves assessing risks, identifying security concerns, security
+requirements and applying relevant security design principles - such as Zero
+Trust, Defense in Depth, and the Principle of Least Privilege - to develop the
+corresponding architecture (reference, solution, implementation)
+
+==== security design best practice
+
+The established and proven techniques, methodologies, and guidelines that
+represent the most effective and reliable approaches for enhancing the security
+of a specific entity of interest.
+
+==== security design consideration
+
+the factors that influence the security design for a specific entity of
+interest.
+
+==== security design constraint
+
+a limitation or requirement that shapes the selection, organization and
+implementation of security capabilities and security design principles within
+the security design process.
+
+NOTE: these constraints can stem from regulatory requirements, technical
+limitations, business objectives, or environmental factors, and they directly
+influence the development of security architectures and solutions to ensure
+protection of a specific entity of interest throughout its lifecycle.
+
+==== security design principle
+
+a guiding believe or rule that directs the security design of an entity of
+interest.
+
+==== security meta reference architecture framework
+
+a higher-level framework that provides a structured approach for creating
+reference architectures within the security domain knowledge. It defines the
+common components, models, principles, and best practices that can be applied
+across various reference architectures.
+
+==== solution
+
+should be defined elsewhere
+
+EDITOR: should be defined elsewhere
+
+NOTE: a solution manifests a design into a particular vendor technology,
+ensuring adherence to designs, models, and frameworks.
+
+==== solution architecture
+
+architecture of an entity of interest.
+
+NOTE: a solution architecture (also known as a blueprint) can be a tailored
+version of a particular reference architecture (which is the next higher level
+of abstraction).

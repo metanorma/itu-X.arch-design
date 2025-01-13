@@ -1,0 +1,42 @@
+= Design Principles and Best Practices for Security Architectures
+:bureau: T
+:question: Q1/17: Security standardization strategy and coordination
+:group-type: study-group
+:group: Study Group 17
+:group-acronym: SG 17
+:group-year-start: 2025
+:group-year-end: 2028
+:meeting: TODO-FULL-NAME-OF-MEETING
+:meeting-date: 2025-02-01/2025-02-02
+:meeting-place: TODO-PLACE
+:language: en
+:source: Broadcom Europe Ltd.
+:docnumber: 3000
+:published-date: 2025-01-13
+:status: in-force-prepublished
+:draft: 5
+:doctype: contribution
+:subdoctype: generic
+:keywords: Security, Design, Design Principle, Architect, Designer
+:fullname: Arnaud Taddei
+:affiliation: Broadcom Europe Ltd.
+:address: United Kingdom
+:phone: +41795061129
+:fax:
+:email: Arnaud.Taddei@broadcom.com
+:imagesdir: images
+:mn-document-class: itu
+:mn-output-extensions: xml,html,doc,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+include::sections/00-summary.adoc[]
+
+include::sections/01-content.adoc[]
+
+// NOTE: No annexes or appendices in this document. If you need to add them,
+// uncomment the following lines and add the appropriate content according to
+// https://github.com/metanorma/itu-contribution-samples/tree/main/sources/contribution-revision
+
+// include::sections/a1-annexA.adoc[]
+// include::sections/a1-appendix.adoc[]

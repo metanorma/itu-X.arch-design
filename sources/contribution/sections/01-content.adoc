@@ -1,21 +1,15 @@
-
-[.preface]
-== Abstract
-
-This contribution contains a proposed revised baseline text for X.arch-design
-
-[.preface]
 == Introduction
 
 This contribution provides a new proposed revised baseline text for X.arch-design. It took into consideration all the former editor notes and recognized a particular big obstacle in e.g. the need to define Zero Trust as an ITU-T wide definition.
 
-[.preface]
 == Proposal
 
 It is proposed that Q1 reviews this contribution, discussed it and agrees how to progress X.arch-design baseline text.
 
 [EDITOR]
 ====
+* (Former editors notes below)
+
 * This document contains the revised baseline text for X.arch-design based on C821 with no change
 * These editors notes are now regrouped from 3 sources
 ** The initial editors notes from C821
@@ -32,10 +26,10 @@ All editors notes from C821 and C803 kept verbatim for further execution below:
 This contribution provides some inputs for making the X.arch-design crisper and more coherent with other related documents under development in SG17 and specifically in SG 17/Q1. The baseline Text has NOT been edited or modified to enable the editors to undertake this exercise in their own structure based on their acceptance of the inputs.
 
 . The Proposed Title for the recommendation: X.arch-design: Security Design Principles and   Concepts
-. The Recommendation should focus on primarily Two aspects of Security – Concepts & Principles.
+. The Recommendation should focus on primarily Two aspects of Security -- Concepts & Principles.
 . The security concepts and principles laid out in this recommendation should be targeted to become the foundational cornerstones for all other Security related collaterals within SG 17/Q1 and even all other Questions  in SG 17 or any other SG…
 . The security concepts and principles when applied to different stakeholders, application domains and use cases in Digital Systems, Solutions, Networks & Infrastructures shall enable insights to capture respective Security Concerns.
-. The captured Security Concerns shall enable developing the relevant Architecture Models, Views and Viewpoints.  
+. The captured Security Concerns shall enable developing the relevant Architecture Models, Views and Viewpoints.
 . A comprehensive collection of Security Concerns and their respective Architecture Models, Views & Viewpoints shall enable composing the wholistic Cyber Security Reference Architecture.
 . It is proposed that this recommendation along with TR.cs-uc, TR.cs-sc and X.cs-ra should be comprehensively coherent and complementary among themselves and there should be NO overlapping of same information.
 . As already acknowledged, it shall be appropriate to allocate the extra content to the relevant document(s) under development.
@@ -51,18 +45,18 @@ A few key security Principles are submitted for consideration of the editors for
 
 * Security characteristics must be considered holistically.
 * A culture of Security is essential to achieving Security.
-* Applicability of t Security to any entity – Security can be defined, verified, validated, and demonstrated for an entity.
-* Security is contexts-dependent – Security of an entity depends on its environment(s) and context of use. Understanding context is necessary for making Security trade-offs.
-* Security should apply risk management – It should be possible to define, validate and verify the level of trust required for a specific system by using a risk management approach (e.g. ISO/IEC 31000).  Security risks and requirements are addressed using Security Controls.
-* Appropriate investment for Security – The costs of applying Security Controls and performing verification measurements should be commensurate with the unmitigated risk impacts cost.
-* Security should be required – Security risks and requirements should be identified, defined, analyzed, and evaluated for each Security characteristics and for every stage of the entity's life cycle.
+* Applicability of t Security to any entity -- Security can be defined, verified, validated, and demonstrated for an entity.
+* Security is contexts-dependent -- Security of an entity depends on its environment(s) and context of use. Understanding context is necessary for making Security trade-offs.
+* Security should apply risk management -- It should be possible to define, validate and verify the level of trust required for a specific system by using a risk management approach (e.g. ISO/IEC 31000).  Security risks and requirements are addressed using Security Controls.
+* Appropriate investment for Security -- The costs of applying Security Controls and performing verification measurements should be commensurate with the unmitigated risk impacts cost.
+* Security should be required -- Security risks and requirements should be identified, defined, analyzed, and evaluated for each Security characteristics and for every stage of the entity's life cycle.
 * Security must be managed throughout the entire system lifecycle.
-* Security shall be demonstrable – The trusted entity auditing process makes use of the measurable, verifiable, and demonstrable evidence. Assurance based on evidence is essential to establish Security. Assurance requires a systems viewpoint with evidence of multiple factors.
-* Security shall be transparent – The environments and contexts, Security characteristics, processes, stakeholders, information, risks, controls, outcomes, and evidence related to a declaration of Security in an entity shall be clearly defined, approved by stakeholders, and communicated.
+* Security shall be demonstrable -- The trusted entity auditing process makes use of the measurable, verifiable, and demonstrable evidence. Assurance based on evidence is essential to establish Security. Assurance requires a systems viewpoint with evidence of multiple factors.
+* Security shall be transparent -- The environments and contexts, Security characteristics, processes, stakeholders, information, risks, controls, outcomes, and evidence related to a declaration of Security in an entity shall be clearly defined, approved by stakeholders, and communicated.
 
 *Introduction*
 
-Since the last SG17 meeting a lot of team work and background work was performed between several SG17 members that lead to a context that had to be taken into account for this Contribution. 
+Since the last SG17 meeting a lot of team work and background work was performed between several SG17 members that lead to a context that had to be taken into account for this Contribution.
 
 Indeed:
 
@@ -74,11 +68,11 @@ Indeed:
 
 is creating a context that led the contribution to decide to purge any aspect which is on developing reference architectures and methodology from this document in order to limit the contour of this contribution to solely on:
 
-What are the design security principles and associated that can constitute an inventory of use for the architect/design for when preparing a reference architecture, a solution architecture or an implementation. 
+What are the design security principles and associated that can constitute an inventory of use for the architect/design for when preparing a reference architecture, a solution architecture or an implementation.
 
 This will give the opportunity for a better delineation and focus of this document back to its origin but now helped by a bigger context and will allow this document to reuse results from other works if necessary rather than defining terminology outside of its scope.
 
-The future CRAMM Roadmap may actually consider if the section on the Architect/Designer shall stay in X.arch-design or should be moved into a more wholistic document listing all the stakeholders that participate to a Reference Architecture, yet, acknowledging that the Architect/Designer is a central one. 
+The future CRAMM Roadmap may actually consider if the section on the Architect/Designer shall stay in X.arch-design or should be moved into a more wholistic document listing all the stakeholders that participate to a Reference Architecture, yet, acknowledging that the Architect/Designer is a central one.
 
 Therefore this contribution is progressing the work on X.arch-design in the following ways:
 

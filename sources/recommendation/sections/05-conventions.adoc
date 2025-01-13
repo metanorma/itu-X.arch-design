@@ -1,0 +1,22 @@
+
+== Conventions
+////
+Mandatory clause. Describe any particular notation, style,
+presentation, etc. used within the Recommendation, if any.
+
+If none, write "None."
+////
+
+In this document the following conventions will be used.
+
+The label DEFxx is labelling a definition in a given principle.
+
+The label SAPxx is labelling a security architecture principle.
+
+The label SDPxx is labelling a security design principle.
+
+Labels can be combined into identifiers in an absolute name space.
+
+[example]
+SDPxxDEFyy is the identifier which represents the definition yy in the security
+design principle xx.

@@ -1,0 +1,144 @@
+
+[[annexA]]
+[appendix,obligation=informative]
+== A comprehensive and granular Cyber Security Architecture imperative for Civic Infrastructure.
+
+=== Context
+
+International law defines Four Global Commons (natural assets outside national
+jurisdiction) which are the earth's natural resources i.e. the High Seas, the
+Atmosphere, Antarctica, and Outer Space. Cyberspace is the 5th Global Common. It
+is also considered as the 5th Dimension beyond the 3 dimensions of Space & 4th
+dimension being the Time.
+
+Challenges that all economies are facing today in safeguarding the security and
+privacy of its ecosystem including citizen are - Transnational Nature of Cyber
+Crime, 'Cultural' Vulnerabilities, Internet Resilience and Threat Landscape.
+
+Cyber risk threat vectors have evolved rapidly, and attacks have become
+increasingly sophisticated, deliberate, and unrelenting in nature. In the
+digital era, trust is a complex issue fraught with myriad existential threats to
+the enterprise. And while disruptive technologies are often viewed as vehicles
+for exponential growth, tech alone can't build long-term trust. Every aspect of
+an organization disrupted by technology represents an opportunity to gain or
+lose stakeholders' trust. Leaders are approaching trust not as a compliance
+issue but as a business-critical goal. For this reason, leading organizations
+are taking a 360-degree approach to maintain the high level of trust their
+stakeholders expect.
+
+The new paradigm of Smart Grid, Smart Home, Smart Building, Smart Manufacturing,
+Smart City already complicated by the 'Internet of Things' & Internet of
+'Everything' made further complex by the 5G, Artificial Intelligence, Machine
+Learning, Blockchain & Quantum Computing, make it truly complex to develop and
+embed comprehensive Security, Privacy and Trustworthiness attributes in the
+products, systems and solutions for any use case or application - be it
+consumer, commercial, industrial, automotive or strategic domains like civic
+infrastructure.
+
+The recent evolution of disruptive technologies and digitalization compounded by
+the Covid 19, changing geopolitical situations, and increasing cyber-attacks
+bring a whole new set of challenges for the Security and Security Evaluation
+Methodologies for complex nature & architectures of Civic Infrastructures of the
+nation leveraging the IT & Communication Networks evolving to meet these rising
+needs of the Society.
+
+The highly protected Networks for the 'Civic Infrastructures' need  to give
+access to the consumers for Consumer Engagement and Participation in these Smart
+(Digital) Infrastructures to meet the true drivers of setting them up. These
+large Smart Networks are actually highly complex 'Systems of Systems' and
+"Networks of Networks', and thus create fresh challenges in the Security
+Paradigm and development of Protection Profiles.
+
+It is evident that Cyber Security is a very complex paradigm, and with evolving
+new technologies, requirements, and ever-increasing Attack Surface the
+vulnerabilities are rising many folds with time. In such a dynamic scenario, it
+is required to   develop a Cyber Security Strategy to make our Critical
+Infrastructure comprehensively Safe, Secure, Resilient and Trustworthy.
+
+=== Imperative
+
+The civic infrastructure cyberthreat landscape is rapidly evolving and
+expanding, with more frequent attacks, more numerous and varied threat actors,
+and increasingly sophisticated malware and tools that are more widely available
+and sometimes indiscriminately deployed. Civic infrastructure operations are
+among the most frequently attacked targets, increasingly by nation-state actors
+aiming for disruption and even destruction through ICS.
+
+It would be reasonable to assume that all the stakeholders have already
+understood the urgency of ensuring the Security & Resilience of Civic
+Infrastructure; however, the initiatives and approaches already adopted and/or
+being adopted by the different arms of the governments are quite arbitrary and
+random, considering point solutions with limited effectiveness to mitigate
+highly complex cyber threats.
+
+Improving cyber safety and resilience requires all stakeholders to act together
+at scale and in a coordinated way, including governments, the engineering
+professionals, operators of civic infrastructure and other systems, and
+developers of products and components. The evolving nature of the challenges
+will require continual responsiveness and agility by governments and other
+stakeholders.
+
+The need for proven, scalable, and standards-based solutions for Civic
+Infrastructures' deployment scenario, with inherent complexity and trade-offs,
+requires specialized, skilled, and multi-stakeholder engagement. THUS, it is
+required to undertake this task of global importance, which shall make a
+significant contribution in building a "Robust Foundation for Civic Information
+Infrastructures" along with paving ways to make our community "secure &
+sustainable".
+
+The only approach would be to adopt top-down approach to standardization
+starting at the system or system-architecture rather than at the product level.
+It is required to Study & Analyse the diverse Use Cases, Applications and
+corresponding Stakeholders & their respective requirements to understand their
+respective Characteristics and concerns. Develop a Granular Civic
+Infrastructures' Cyber Security Architecture mapping all the security, privacy,
+safety, resilience characteristics with the Granular Civic Infrastructure
+Architecture.
+
+Based on the developed Cyber Security Reference Architecture, the diverse
+standards shall need to be mapped to well identified Stakeholders' concerns and
+diverse Products, Systems & Solutions being deployed. In accordance with the
+appropriate Standards identified & mapped, a comprehensive Compliance Testing
+Framework followed by granular Testing Schemas shall need to be developed based
+on which the Testing Infrastructure could be created.
+
+Unless, the aforementioned milestones are achieved, the Security Compliance &
+Testing Strategy  shall NOT deliver the desired results.
+
+=== Conclusion
+
+Innovation and technology development are accelerating. Strategic plans and
+roadmaps are needed to help ensure that the market is suitably served with best
+practices that is pertinent to the goals and context of this very large market.
+
+The multiplicity of technologies and their convergence in many new and emerging
+markets, however, particularly those involving large-scale infrastructure demand
+a top-down approach to standardization starting at the system or
+system-architecture rather than at the product level. Therefore, the systemic
+approach in standardization work can define and strengthen the systems approach
+throughout the technical community to ensure that highly complex market sectors
+can be properly addressed and supported. It promotes an increased co-operation
+with many other standards-developing organizations and relevant non-standards
+bodies needed on an international level.
+
+Given the scale, moving forward through the labyrinth of Disruptive Technologies
+cannot be successfully, efficiently, and swiftly accomplished without standards.
+The role of standards to help steer and shape this journey is vital. Standards
+provide a foundation to support innovation. The Standards support our need to
+balance agility, openness, and security in a fast-moving environment. The
+Standards provide us with a reliable platform to innovate, differentiate and
+scale up our technology development. They help to control essential security and
+integrate the right level of interoperability. Standards help ensure cyber
+security in ICT and IoT systems (Digital & Cyber Physical systems). Standards
+capture best practices and set regulatory compliance requirements, which is
+crucial for the sustainable Digital Transformation of the Critical
+Infrastructure.
+
+It is imperative to delve into the security, privacy & trustworthiness aspects,
+and implications of the new paradigm of "Digital Infrastructure" and "Internet
+of Things" that the pervasive computing has enabled, thus raising new challenges
+for the 'IT & Communication Security' Development & Evaluation Eco-system.
+Hence, needing a new rigorous and vigorous effort in developing a "Comprehensive
+Cyber Security, Resilience & Trustworthiness" Strategy Framework encompassing
+all the critical domains and Stakeholders' classifications and their respective
+imperatives from Cyber Security & Resilience & Trustworthiness Perspective.
