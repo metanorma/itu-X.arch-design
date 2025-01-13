@@ -2,7 +2,7 @@
 
 This work item belongs to ITU-T SG 17, Q1/17.
 
-image:https://github.com/metanorma/itu-X.arch-design/actions/workflows/generate.yml/badge.svg["Build", link="https://github.com/metanorma/itu-X.arch-design/actions/workflows/generate.yml"]
+image:https://github.com/metanorma/itu-X.arch-design/actions/workflows/docker.yml/badge.svg["Build", link="https://github.com/metanorma/itu-X.arch-design/actions/workflows/docker.yml"]
 
 Published components are available here:
 
