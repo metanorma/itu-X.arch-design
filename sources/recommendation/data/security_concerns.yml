@@ -318,9 +318,9 @@ domains:
     name: Never trust, always verify
     abbrv:
     type: Security Design Principle
-    definitions:
-    descriptions:
-    sources:
+    definitions:  "The premise that trust is never granted implicitly but must be continually evaluated."
+    descriptions: A restatement of the Zero Trust premise.
+    sources: NIST SP 800-207
     evolution:
     position:
     include:
@@ -332,9 +332,11 @@ domains:
     name: Micro-segmentation
     abbrv:
     type: Security Design Principle
-    definitions:
-    descriptions: Networks are divided into small, secure zones to maintain separate access for separate parts of the network. This limits an attacker's ability to move laterally across a network.
-    sources:
+    definitions: |
+      DEF01 NIST SP 800-215 :Microsegmentation is a security design practice where an internal network (e.g., in the data center, cloud provider region) is divided into isolated segments so that the traffic in and out of each segment can be monitored and controlled.
+    descriptions: Networks are divided into small, secure zones to maintain separate access for separate parts of the network. This limits an attacker's ability to move laterally across a network. The primary purpose of microsegmentation is to provide a degree of isolation to prevent attack escalation.
+    sources: |
+      NIST SP 800-215
     evolution:
     position:
     include:
