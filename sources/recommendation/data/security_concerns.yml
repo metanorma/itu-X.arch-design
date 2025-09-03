@@ -99,6 +99,8 @@ domains:
     obsoleted_by:
     notes: |
       EDITOR: This is (too) obvious, perhaps this should be re-interpreted from a different point of view on classification regarding an overall safety approach which would allow to classify this principle in the paradigm 'removal' in the 4 paradigms: prevention, tolerance, removal, forecasting.
+      EDITOR: Most organizations operate computer systems with vulnerabilities that go unpatched for months to years. At least for the operator, vulnerable systems are accepted for a time. (See "The Fast and the Frivolous: Pacing Remediation on Internet-Facing Vulnerabilities," Security Scorecard (2024)).
+      EDITOR: The terms "vulnerable," and "unacceptable," lead to strange outcomes. Vulnerable means "susceptible to attack," and unacceptable means, "not allowed." Even the best components will be susceptible to some attacks, and we know that companies allow vulnerabilies to persist for years. We likely need to re-imagine this, or if we embrace the position, then explain why we take an absolute position.
 
   - id: SDP02
     name: Defense in depth
@@ -611,8 +613,11 @@ domains:
     abbrv:
     type: Security design best practice
     definitions:
-    descriptions:
-    sources:
+    descriptions: Design your system so that a failure will follow the same execution path as disallowing the operation.
+    sources: |
+        Jerome Saltzer & Michael D. Schroeder, "The Protection of Information in Computer Systems," in Proceeding of the IEEE, vol 63, no. 9, pp. 1278-1308, Sept. 1975.
+        Daniel Waller, "Fail Securely", OWASP (https://owasp.org/www-community/Fail_securely)
+        "Principles of security", OWASP Developer Guide (https://devguide.owasp.org/en/02-foundations/03-security-principles/)
     evolution:
     position:
     include:
@@ -624,9 +629,10 @@ domains:
     name: Avoid security by obscurity
     abbrv:
     type: Security design best practice
-    definitions:
+    definitions: A component should not use a protection mechanism whose strength depends heavily on it being unknown, such that knowledge about the component or its security mechanism is sufficient to defeat it.
+
     descriptions:
-    sources:
+    sources: MITRE CWE-656: Reliance on Security Through Obscurity (https://cwe.mitre.org/data/definitions/656.html)
     evolution:
     position:
     include:
@@ -635,12 +641,12 @@ domains:
     notes:
 
   - id: SDB07
-    name: Keep security simple
-    abbrv:
+    name: Keep Security Simple
+    abbrv: KSS
     type: Security design best practice
-    definitions:
+    definitions: The more complex or interconnected a system, the less secure the system tends to be.
     descriptions:
-    sources:
+    sources: Bruce Schneier, "A Plea for Simplicity," Information Security Magazine (November 19, 1999).
     evolution:
     position:
     include:
