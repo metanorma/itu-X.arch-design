@@ -8,8 +8,8 @@ domains:
     abbrv:
     type: Security architectural principle
     definitions:
-    descriptions:
-    sources:
+    descriptions: "All relevant transactions between the users and the computer system small be automatically logged (including date and time) by the computer system so that an audit of transactions involving access to and generation, classification, reclassification, and destriction of files is possible."
+    sources: Willis H Ware, "Security Controls for Computer Systems: Report of Defense Science Board Task Force on Computer Security, R-609-1" Dep't. of Defense, (1979), pg. 18.
     evolution:
     position:
     include:
@@ -225,6 +225,7 @@ domains:
     included_by:
     obsoleted_by:
     notes:
+    Every new webapp, site, or service on the internet increases the attack surface. It seem that this principle, if fully embraced would be anthetical to an business use of the internet. A principle that a decisionmake MUST violate if they want to give their company a website, seems to be useless guidance. I recommend reimagining or abandoning this principle to be focused on the balancing of risk and reward.
 
   - id: SDP07
     name: The principle of least privilege
@@ -321,8 +322,10 @@ domains:
     abbrv:
     type: Security Design Principle
     definitions: The premise that trust is never granted implicitly but must be continually evaluated.
-    descriptions: A restatement of the Zero Trust premise.
-    sources: NIST SP 800-207
+    descriptions: A restatement of the Zero Trust premise. "In Zero Trust someone will assert their identity and then we will allow them access to a particular resource based upon that assertion. We will restrict users only to the resources they need to perform their job. But Zero Trust does not stop there. Instead of trusting users to do the right thing, we verify that they are doing the right thing. To do this we simply flip the mantra "trust but verify” into “verify and never trust."" 
+    sources: |
+    NIST SP 800-207
+    John Kindervag, "No More Chewy Centers Introducing the Zero Trust Model of Information Security," Forrester (September 14, 2010), pg. 9.
     evolution:
     position:
     include:
